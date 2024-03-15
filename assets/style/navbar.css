@@ -1,5 +1,5 @@
 .navbar-wes{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -49,3 +49,25 @@
     .menu-container ul li:last-child {
       margin-right: 0; 
     }
+
+    .nav-link {
+      position: relative;
+      text-decoration: none;
+      color: #aaa;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px; /* Distância entre a barra e o texto */
+      width: 0;
+      height: 2px; /* Altura da barra */
+      background-color: #D1BE13; /* Cor da barra */
+      transition: width 0.3s; /* Efeito de transição */
+  }
+  
+  .nav-link:hover::after,
+  .nav-link.active::after {
+      width: 100%; /* Largura total quando o link está sendo hover ou é ativo */
+  }

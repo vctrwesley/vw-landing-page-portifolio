@@ -1,0 +1,67 @@
+.hello {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.dev {
+    font-size: 32px;
+}
+
+.conteudo-sobre {
+    width: 70%;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.conteudo-sobre p{
+    margin: 32px;
+    font-size: 18px;
+    text-align: justify
+}
+
+.pic-me img{
+    width: auto;
+    height: 300px;
+    margin: 32px;
+}
+
+.button-contato {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.btn {
+    background-color: #D1BE13;
+    color: #EDEDED;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 16px;
+    padding: 0.625rem 1.25rem; 
+    margin-bottom: 1rem; 
+}
+
+.btn:hover {
+    background-color: #D4C53A;
+    color: #EDEDED;
+}
+
+.container-led {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+    background-color: #D1BE13;
+    overflow: hidden;
+}
+
+.text-container-led {
+    white-space: nowrap; 
+    animation: moveText 12s linear infinite;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
