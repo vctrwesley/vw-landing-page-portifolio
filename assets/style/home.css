@@ -1,0 +1,58 @@
+.home{
+    margin-top: 80px;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;;
+}
+
+.container-amarelo{
+    margin-left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #D1BE13;
+}
+
+.container-amarelo .text-cont{
+    color: white;
+    font-size: 40px;
+    margin-top: 32px;
+}
+
+span .text-cont{
+    margin-left: 32px;
+}
+
+.img-arts{
+    width: auto;
+    height: 30%;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.container-preto{
+    width: 100%;
+    height: 500px;
+    background-color: #1C1C20;
+    left: 0;
+    border-left: 8px solid #EDEDED;
+}
+
+.container-preto .text-cont{
+    color: white;
+    font-size: 40px;
+    margin-top: 32px;
+
+}
+
+.not-arte {
+    width: auto;
+    height: 400px;
+    position: absolute;
+    bottom: -35px;
+    left: 50%; /* Coloca a imagem no meio horizontalmente */
+    transform: translateX(-48%); /* Corrige o posicionamento */
+}

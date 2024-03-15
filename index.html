@@ -13,13 +13,16 @@
     <link rel="stylesheet" href="assets/style/navbar.css">
     <link rel="stylesheet" href="assets/style/footer.css">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/home.css">
+    <link rel="stylesheet" href="assets/style/sobre.css">
+    <link rel="stylesheet" href="assets/style/tecnology.css">
    
 </head>
 
 <body>
 
-    <header class="header" id="inicio">
-    <nav class="navbar-wes" role="banner">
+    <header class="header" id="menu">
+    <nav class="navbar-wes navbar-expand-lg fixed-top" role="banner">
         <div class="bar-container">
             <div>
                 <a>
@@ -27,14 +30,21 @@
                 </a>
             </div>
             <div class="menu-container">
-                <ul>
-                    <li><a href="#home">Home</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
-                    <li><a href="#about">Sobre</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
-                    <li><a href="#projects">Projetos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech">Tecnologias</a>
                     </li>
-                    <li><a href="#contact">Contato</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -42,16 +52,81 @@
     </nav>
     </header>
 
-    <section class="sobre-me" id="sobre">
-        <h1>OLÁ, ME CHAMO VICTOR WESLEY</h1>
-        <h2>Desenvolvedor Front end e UI/UX designer</h2>
-        <div class="conteudo-sobre">
-            <p>Nasci em 22 de novembro de 2000 em Limoeiro do Norte - CE. Desde muito pequeno sempre fui apaixonado 
-                por tecnologia e arte. e foi no ensino médio que comecei a explorar mais desses dois mundos e tentar 
-                imaginar qual seria a união perfeita para seguir com o que gosto. E hoje aos 23 anos estou imerso no 
-                universo da tecnologia e do design.  Cursando o 6º semestre de Ciências da Computação na UFC - Campus 
-                de Russas, onde tenho adquirido conhecimento em programação e desenvolvimento de software.
-            </p>
+    <section class="home" id="home">
+        <img class="not-arte" src="assets/img/arte-notebook.png">
+        <div class="container-amarelo">
+            <img class="img-arts" src="assets/img/Vector 6.png" alt="Notebook"><div>
+            <span class="text-cont">Designer</span>
+        </div>
+        </div>
+        <div class="container-preto">
+            <div>
+                <span class="text-cont">coder</span>
+            </div>
+            </div>
+    </section>
+
+    <div class="container-fluid mt-5">
+        <section class="sobre-me" id="sobre">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="hello">OLÁ, ME CHAMO VICTOR WESLEY</h1>
+                    <h2 class="dev">Desenvolvedor Front end e UI/UX designer</h2>
+                    <div class="conteudo-sobre">
+                        <div class="pic-me">
+                            <img src="assets/img/my-photo.jpg">
+                        </div>
+                        <p>Nasci em 22 de novembro de 2000 em Limoeiro do Norte - CE. Desde muito pequeno sempre fui apaixonado 
+                        por tecnologia e arte. e foi no ensino médio que comecei a explorar mais desses dois mundos e tentar 
+                        imaginar qual seria a união perfeita para seguir com o que gosto. E hoje aos 23 anos estou imerso no 
+                        universo da tecnologia e do design.  Cursando o 6º semestre de Ciências da Computação na UFC - Campus 
+                        de Russas, onde tenho adquirido conhecimento em programação e desenvolvimento de software.
+                        </p>
+                        <div class="button-contato">
+                            <button class="btn" id="button-contato" type="button">Fale comigo</button>
+                        </div>
+                    </div>
+                    <div class="container-led" id="container">
+                        <div class="text-container-led" id="text-container">
+                            <p>Entre em contato. Para criarmos algo incrível juntos!   Entre em contato. Para criarmos 
+                                algo incrível juntos!  Entre em contato. Para criarmos algo incrível juntos! Entre em 
+                                contato. Para criarmos algo incrível juntos!</p>
+                        </div>
+                    </div>
+                    <grid class="image-group" id="fotos">
+                        <img src="assets/img/my-photo.jpg" height="200">
+                        <img src="assets/img/my-photo.jpg" height="200">
+                        <img src="assets/img/my-photo.jpg" height="200">
+                    </grid>
+                    <p> Com um olhar atento aos detalhes e uma mentalidade voltada para a inovação e criatividade, estou 
+                        constantemente buscando aprimorar minhas habilidades e aprender novas tecnologias, sempre aberto 
+                        a desafios criativos que me permitam explorar novos horizontes e encontrar soluções inteligentes 
+                        para qualquer problema.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="skills" id="tech" >
+        <div class="tecnologias">
+            <h1 class="title-tech">TECNOLOGIAS</h1>
+
+        </div>
+        <div class="soft-skills">
+            <h1 class="title-skill">SOFT SKILLS</h1>
+            
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1 class="title-projects">PROJETOS</h1>
+    </section>
+
+    <section class="contacts" id="contato">
+        <div class="container-contato">
+            <h1 class="title-contact">CONTATO</h1>
+            
         </div>
     </section>
 
@@ -67,7 +142,7 @@
                     <div class="explore">
                         <h1>Explore</h1>
                         <ul class="footer-links">
-                            <li><a href="#inicio">Home</a></li>
+                            <li><a href="#inicio" onclick="scrollToSection('inicio')">Home</a></li>
                             <li><a href="#sobre">Sobre</a></li>
                             <li><a href="#projetos">Projetos</a></li>
                         </ul>
@@ -82,7 +157,7 @@
                     </div>
                     <div class="contato">
                         <h1>Contato</h1>
-                            <a href="https://www.linkedin.com/in/victor-wesley/">
+                            <a href="https://www.linkedin.com/in/victor-wesley/" target="_blank">
                                 <img src="/assets/img/icons/linkedin.svg" alt="Icone do linkedin">
                             </a>
                             <a href="https://github.com/vctrwesley">
@@ -105,6 +180,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="Javascript/menu.js"></script>
+    <script src="Javascript/scroll.js"></script>
+   <!-- <script src="Javascript/animation.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
