@@ -1,12 +1,11 @@
 #contato {
-    margin-top: 8%;
-
+    margin-top: 6%;
 }
 
 .container-contato {
     width: 100%;
     background-color: #1C1C20;
-    height: 500px;
+    height: auto;
     margin-top: 32px;
 }
 
@@ -19,6 +18,64 @@
     padding-left: 32px;
 }
 
+.container-contato h3 {
+    color: #D1BE13;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 14px 0;
+}
+
 .container-contato h1 img {
     margin-right: 8px;
+}
+
+.formulario-contato {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.form-control {
+    width: 70%;
+    margin-bottom: 14px;
+}
+
+.button-container .btn {
+    width: 70%;
+    margin-bottom: 40px;
+    padding: 4px;
+}
+
+.social-icons .iconTop img {
+    width: 40px;
+    margin-right: 8px;
+}
+
+.cont-logo-vw {
+    position: relative;
+    transform: translate(400%, -120%);
+    margin-top: 16px;
+    width: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-icons {
+        display: none;
+    }
+
+    .cont-logo-vw {
+        display: none;
+    }
+
+    .formulario-contato {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .button-container .btn {
+        width: 100%;
+    }
 }
