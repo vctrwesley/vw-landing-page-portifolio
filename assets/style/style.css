@@ -89,10 +89,10 @@ video {
   color: inherit;
 }
 
-body{
-    background-color: #EDEDED;
-    font-family: "Glacial indifference", sans-serif;
-    color: #0F0F0C;
+body {
+  background-color: #EDEDED;
+  font-family: "Glacial indifference", sans-serif;
+  color: #0F0F0C;
 }
 
 hr {
@@ -114,7 +114,7 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color:  #1f242d;
+  background-color: #1f242d;
   border-radius: 100vw;
 }
 
@@ -124,14 +124,14 @@ hr {
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 button {
-    border: none;
-    cursor: pointer;
-  }
+  border: none;
+  cursor: pointer;
+}
 
 ol,
 ul {
@@ -149,6 +149,10 @@ q:before,
 q:after {
   content: "";
   content: none;
+}
+
+.row {
+  margin: 0;
 }
 
 /* HTML5 display-role reset for older browsers */
