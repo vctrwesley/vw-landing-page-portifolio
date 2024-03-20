@@ -8,31 +8,29 @@
 }
 
 .conteudo-sobre {
-    width: 70%;
-    display: flex;
-    justify-items: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     margin: auto;
-    margin-top: 32px;
+    margin-top: 24px;
 }
 
-.conteudo-sobre p{
+.conteudo-sobre p {
     margin: 32px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify
 }
 
-.pic-me img{
+.pic-me img {
     width: auto;
     height: 300px;
     margin: 32px;
 }
 
 .button-contato {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 32px;
+    grid-column: span 1;
+    text-align: left;
+    margin-left: 32px;
 }
 
 .btn {
@@ -40,9 +38,9 @@
     color: #EDEDED;
     font-size: 1rem;
     font-weight: 700;
-    border-radius: 16px;
-    padding: 0.625rem 1.25rem; 
-    margin-bottom: 1rem; 
+    border-radius: 8px;
+    padding: 0.625rem 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .btn:hover {
@@ -59,9 +57,73 @@
 }
 
 .text-container-led {
-    white-space: nowrap; 
+    white-space: nowrap;
     animation: moveText 12s linear infinite;
     color: black;
     font-size: 16px;
     font-weight: 700;
+}
+
+.sobre-02 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.image-group {
+    width: 100%;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 56px;
+    justify-content: center;
+}
+
+.image-group img {
+    margin: 0 24px;
+    width: 250px;
+    height: auto;
+}
+
+.text-sbr {
+    margin: 32px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .conteudo-sobre {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .conteudo-sobre p {
+        margin: 14px 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pic-me img {
+        margin: 16px 0 0 0;
+    }
+
+    .button-contato {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .image-group {
+        align-items: center;
+        margin-top: 14px;
+    }
+
+    .image-group img {
+        margin: 16px;
+        width: 30%;
+    }
+
+    .text-sbr {
+        margin: 16px;
+        font-size: 16px;
+    }
 }

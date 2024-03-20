@@ -1,0 +1,37 @@
+.projects {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.projects h1 {
+    color: #1C1C20;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.projects h1 img {
+    margin-right: 8px;
+}
+
+.projetos-box {
+    text-align: center;
+}
+
+.projetos-box img {
+    width: 50%;
+    height: auto;
+    margin: 14px;
+}
+
+.desc-projeto p {
+    color: #1C1C20;
+    font-size: 24px;
+}
+
+.desc-projeto h4 {
+    color: #1C1C20;
+    font-size: 32px;
+}

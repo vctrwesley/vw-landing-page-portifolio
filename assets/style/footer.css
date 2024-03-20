@@ -1,116 +1,166 @@
 .footer-wes {
-    display: flex;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    margin: auto;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2C2D2E;
+}
+
+.footer__container {
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer_inf {
+  display: flex;
+}
+
+.footer__logo {
+  margin-right: auto;
+}
+
+.footer__menu {
+  display: flex;
+  background-color: transparent;
+  margin-bottom: 0.875rem;
+  margin-top: 0.875rem;
+  color: #fff;
+  font-family: "Glacial indifference", sans-serif;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.footer__menu ul {
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.footer__menu ul li {
+  padding: 8px 0;
+}
+
+.footer__links .a {
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #D1BE13;
+}
+
+.explore,
+.sobre,
+.contato {
+  margin-right: 32px;
+}
+
+.explore ul,
+.sobre ul {
+  list-style: none;
+  padding: 0;
+}
+
+.explore h1,
+.sobre h1,
+.contato h1 {
+  color: #D1BE13;
+  font-size: 24px;
+}
+
+.contato ul {
+  display: flex;
+}
+
+.contato ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.contato img {
+  width: 8%;
+  margin: 0.25rem;
+}
+
+.contato img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.divide-container .divider-line {
+  width: 80%;
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #D1BE13;
+}
+
+.footer-copyright {
+  font-family: "Glacial indifference", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: auto;
+}
+
+@media (max-width: 768px) {
+  .footer-wes {
     flex-direction: column;
-    justify-content: center;
-    background-color: #2C2D2E;
-  }
-    
-  .footer-wes .footer__container { 
-    width: 100%;
-    max-width: 1200px;
-    align-items: center; 
-    flex-direction: row;
-    margin: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .footer_inf{
-    display: flex;
-  }
-  
-  .footer__logo {
-    margin-right: auto;
-  }  
-  
-  .footer__menu { 
-    display: flex;
-    background-color: transparent;
-    margin-bottom: 0.875rem;
-    margin-top: 0.875rem;
-    color: #fff;
-    font-family: "Glacial indifference", sans-serif;
-    font-size: 14px;
-    justify-content: space-between;
-  }
-    
-  .footer__menu ul {
     align-items: center;
-    justify-content: center;
-    margin: 0.5rem; 
+    text-align: center;
   }
-    
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__logo {
+    margin: auto;
+  }
+
+  .footer__links {
+    order: 2;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__menu ul {
+    margin: 0;
+  }
+
   .footer__menu ul li {
-    padding: 8px 0; 
+    margin: 0.5rem 0;
   }
-    
-  .footer__links .a {
-    margin-right: 0.625rem; 
-    margin-bottom: 0.625rem;
-    color: #fff;
-    text-decoration: none;
-  }
-    
-  .footer-links a:hover {
-    color: #D1BE13;
-  }
-  
+
   .explore,
   .sobre,
   .contato {
-    margin-right: 32px;
+    margin-right: 0;
   }
-  
-  .explore ul,
-  .sobre ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .explore h1,
-  .sobre h1,
-  .contato h1 {
-    color: #D1BE13;
-    font-size: 24px;
-  }
-  
+
   .contato ul {
-    display: flex;
+    flex-direction: column;
   }
-  
-  .contato ul li {
-    margin: 0;
-    padding: 0;
+
+  .contato img {
+    margin: 0.25rem auto;
   }
-  
-  .contato img{
-    width : 8%; 
-    margin : 0.25rem;
-  }
-  
-  .contato img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease; 
-  }
-  
-  .divide-container .divider-line {
-    width: 80%; 
-    display: inline-block;
-    margin: 0 0.5rem; 
-    color: #D1BE13;
-  }
-  
-  .footer-copyright {
-    font-family: "Glacial indifference", sans-serif;
-    font-size: 14px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    margin-top: 1.5rem;
-    margin-bottom: auto;
-    }
+}
