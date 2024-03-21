@@ -2,15 +2,20 @@
 
 ## Descrição do Projeto:
 
-Este projeto é uma versão da minha landing page pessoal, portfólio. Desenvolvida para o desafio da residencia na Iuul, esse projeto deve apresentar meus melhores trabalhos (projetos), habilidades e informações de contato, utilizando apenas HTML, CSS e Bootstrap.
+Este projeto é uma versão da minha landing page pessoal, portfólio. Desenvolvida para o desafio da residencia na Iuul, onde deve apresentar meus melhores trabalhos (projetos), habilidades e informações de contato, utilizando apenas HTML, CSS opcional (Bootstrap).
 
 ## Protótipo do figma: 
+https://www.figma.com/proto/4TZxsxD9DdC1EMGLLs5fCK/Proj-W?page-id=0%3A1&type=design&node-id=9-15&viewport=459%2C215%2C0.13&t=5SDqlAZegNgbOzBT-1&scaling=scale-down&starting-point-node-id=9%3A15&mode=design
+
+## Link da página:
+https://vw-landing-page-portifolio.vercel.app/
 
 ## Tecnologias Usadas:
 
 - HTML
 - CSS
 - Bootstrap
+- Javascript
 
 ## Funcionalidades:
 
@@ -20,20 +25,13 @@ Este projeto é uma versão da minha landing page pessoal, portfólio. Desenvolv
 - Contato (Formulário de contato para que os visitantes possam entrar em contato).
 - Layout responsivo para se adaptar a diferentes dispositivos.
 
-## Instalação e Configuração:
-
-- Clone o repositório para o seu computador:
-git clone https://github.com/SEU_NOME_DE_USUARIO/landing-page-portfolio-iuul.git
-Abra o arquivo index.html em um navegador web para visualizar a landing page.
-
 ## Licença:
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 ## Contato:
 
-Se você tiver alguma dúvida ou sugestão, entre em contato comigo através do [endereço de e-mail] ou [link para o seu perfil do LinkedIn].
-Observações:
+Se você tiver alguma dúvida ou sugestão, entre em contato comigo através do https://www.linkedin.com/in/victor-wesley/.
 
 ## Recursos Adicionais:
 

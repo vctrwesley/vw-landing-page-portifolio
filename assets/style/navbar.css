@@ -85,7 +85,7 @@
   }
 
   .logo img{
-    width: 50%;
+    width: 80%;
   }
 
   .navbar-toggler {
@@ -95,6 +95,10 @@
 
   .bg-color {
     background-color: #2C2D2E;
+  }
+
+  .offcanvas.offcanvas-end {
+    width: 50%;
   }
 
   .navbar-nav {
