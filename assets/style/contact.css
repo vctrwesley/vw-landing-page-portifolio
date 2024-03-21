@@ -57,7 +57,10 @@
     width: 120px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 932px) {
+    .container-contato h1 {
+        padding-left: 16px;
+    }
     .social-icons {
         display: none;
     }

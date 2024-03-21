@@ -1,4 +1,4 @@
-.navbar-wes {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +23,6 @@
 .bar-container .logo img {
   width: 90%;
   height: auto;
-  margin: 0.25rem;
 }
 
 .menu-container {
@@ -79,18 +78,23 @@
   border-bottom: 2px solid #D1BE13;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   .bar-container {
     justify-content: space-between;
     margin: 0;
   }
 
-  .menu-container {
-    display: none;
+  .logo img{
+    width: 50%;
   }
 
   .navbar-toggler {
     display: block;
+    border: none;
+  }
+
+  .bg-color {
+    background-color: #2C2D2E;
   }
 
   .navbar-nav {
@@ -111,11 +115,7 @@
     color: #D1BE13;
   }
 
-  .navbar-toggler:focus .collapse {
-    display: block;
-  }
-
   .navbar-toggler:focus {
-    display: none;
+    display: block;
   }
 }

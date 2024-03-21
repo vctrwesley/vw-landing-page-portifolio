@@ -69,7 +69,7 @@ span .text-cont {
     z-index: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
     .container-amarelo .text-cont {
         font-size: 28px;
         left: 20px;

@@ -26,11 +26,12 @@
     width: 50%;
     height: auto;
     margin: 14px;
+    border-radius: 8px;
 }
 
 .desc-projeto p {
     color: #1C1C20;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .desc-projeto h4 {
@@ -38,7 +39,12 @@
     font-size: 32px;
 }
 
-@media (max-width: 768px) {
+.project-image img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 932px) {
     .projects h1 {
         padding-left: 16px;
     }
