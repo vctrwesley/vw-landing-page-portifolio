@@ -24,19 +24,25 @@
 <body>
 
     <header class="header" id="menu">
-        <nav class="navbar-wes navbar-expand-lg fixed-top" role="banner">
+        <nav class="navbar navbar-expand-lg bg-img fixed-top" role="banner">
             <div class="bar-container">
-                <div>
-                    <a class="navbar-brand" href="#">
-                        <img src="/assets/img/logovw.svg" alt="Logo Victor Wesley">
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="logo navbar-brand" href="index.html">
+                    <img src="/assets/img/logovw.svg" alt="Logo de Victor Wesley nas cores preto, amarelo e branco">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg"
+                    aria-label="Toggle navigation">
+                    <img src="assets/img/menu-white.svg" alt="menu lateral do mobile" width="30rem">
                 </button>
-                <div class="menu-container navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                <div class="offcanvas offcanvas-end bg-color" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                    <div class="offcanvas-header">
+                      <a class="offcanvas-title text-warning" id="offcanvasNavbarLabel">
+                        <img src="assets/img/logo W.svg" alt="Logo VW" width="40rem">
+                    </a>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                <div class="offcanvas-body menu-container">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
@@ -212,27 +218,37 @@
             <div class="container-projeto">
                 <div class="row row-cols-3">
                     <div class="projetos-box col">
-                        <img src="assets/img/teste.png" alt="">
+                        <div class="project-image">
+                            <a href="https://github.com/vctrwesley/vw-landing-page-portifolio" target="_blank">
+                                <img src="assets/img/vw-portifolio.png" alt="">
+                            </a>
+                        </div>
                         <div class="desc-projeto">
-                            <p>HTML5, CSS</p>
-                            <h4>Name project</h4>
-                            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <p>HTML5, CSS3, Javascript</p>
+                            <h4>VW Portifólio</h4>
                         </div>
                     </div>
                     <div class="projetos-box col">
-                        <img src="assets/img/teste.png" alt="">
+                        <div class="project-image">
+                            <a href="https://github.com/vctrwesley/Spotify-imers-o" target="_blank">
+                                <img src="assets/img/wes-spotify.png" alt="">
+                            </a>
+                        </div>
                         <div class="desc-projeto">
-                            <p>HTML5, CSS</p>
-                            <h4>Name project</h4>
-                            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <p>HTML5, CSS3</p>
+                            <h4>Wes Spotify</h4>
                         </div>
                     </div>
                     <div class="projetos-box col">
-                        <img src="assets/img/teste.png" alt="">
+                        <div class="project-image">
+                            <a href="https://www.figma.com/proto/wpp1f9u3Tqn6eCC2XIIKsg/KIRA?page-id=0%3A1&node-id=1-2&starting-point-node-id=60%3A42&t=z0T8vYMEe31tU2Ja-1"
+                                target="_blank">
+                                <img src="assets/img/kira.png" alt="">
+                            </a>
+                        </div>
                         <div class="desc-projeto">
-                            <p>HTML5, CSS</p>
-                            <h4>Name project</h4>
-                            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <p>Figma</p>
+                            <h4>Kira</h4>
                         </div>
                     </div>
                     <div class="projetos-box col">
@@ -350,7 +366,7 @@
                 <hr class="divider-line">
             </div>
             <div class="footer-copyright">
-                <span>© 2024 Victor Wesley - Todos os Direitos Reservados</span>
+                <span>&copy; 2024 Victor Wesley - Todos os Direitos Reservados</span>
             </div>
         </div>
     </footer>
@@ -360,7 +376,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="Javascript/menu.js"></script>
-    <script src="Javascript/scroll.js"></script>
+    <!-- <script src="Javascript/scroll.js"></script> -->
     <!-- <script src="Javascript/animation.js"></script> -->
 
 </body>

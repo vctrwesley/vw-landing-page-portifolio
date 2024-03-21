@@ -115,52 +115,26 @@
   margin-bottom: auto;
 }
 
-@media (max-width: 768px) {
-  .footer-wes {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+@media (max-width: 932px) {
 
   .footer__container {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
   }
 
-  .footer__logo {
-    margin: auto;
+  .footer__menu{
+    display: none;
   }
 
-  .footer__links {
-    order: 2;
-  }
-
-  .footer__menu {
-    flex-direction: column;
+  .divide-container {
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
   }
 
-  .footer__menu ul {
-    margin: 0;
-  }
-
-  .footer__menu ul li {
-    margin: 0.5rem 0;
-  }
-
-  .explore,
-  .sobre,
-  .contato {
-    margin-right: 0;
-  }
-
-  .contato ul {
-    flex-direction: column;
-  }
-
-  .contato img {
-    margin: 0.25rem auto;
+  .footer-copyright {
+    margin-top: 0.5rem;
   }
 }
