@@ -49,6 +49,77 @@
   height: 5.313rem;
 }
 
+.icon-tech img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #1C1C20;
+  border-radius: 8px;
+  z-index: 9999;
+}
+
+.desc-tec {
+  text-align: center;
+}
+
+.popup .btn {
+  margin-top: 24px;
+  margin-bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #D1BE13;
+}
+
+.popup h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.popup p li {
+  font-size: 14px;
+}
+
+.popup span {
+  font-weight: 400;
+}
+
+.link-tec {
+  color: #0F509C;
+}
+
+.link-tec:hover{
+  color: #3B88E3;
+}
+
+.popup hr {
+  border: none;
+  height: 1px;
+  background-color: #1C1C20;
+  margin: 8px;
+}
+
+.tech-pro {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 @media (max-width: 932px) {
 
   .tecnologias,

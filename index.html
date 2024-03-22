@@ -103,9 +103,9 @@
                                 programação e desenvolvimento de software.
                             </p>
                             <br />
-                            <div class="button-contato">
-                                <button class="btn" id="button-contato" type="button">Fale comigo</button>
-                            </div>
+                            <a class="button-contato" href="assets/pdf/Curriculo-Wesley.pdf" download>
+                                <button class="btn" id="button-contato" type="button">Meu curriculo</button>
+                            </a>
                         </div>
                         <div class="sobre-02">
                             <div class="container-led" id="container">
@@ -144,44 +144,423 @@
                 <h1 class="title-tech">TECNOLOGIAS</h1>
                 <div class="row row-cols-5">
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/js.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/js.svg" onclick="exibirPopup('popup-js')">
                         <p class="name-tech">Javascript</p>
+                        <div id="popup-js" class="popup">
+                            <div class="desc-tec">
+                                <h1>JavaScript</h1>
+                                <p>
+                                    O JavaScript é uma linguagem de programação amplamente utilizada para
+                                    desenvolvimento
+                                    web. Ele permite adicionar interatividade e dinamismo às páginas da web.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                                        target="_blank" class="link-tec">
+                                        https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Facilidade de aprendizado</li>
+                                <li>Ampla compatibilidade com navegadores</li>
+                                <li>Grande comunidade de desenvolvedores</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Desempenho relativamente mais lento em comparação com linguagens compiladas</li>
+                                <li>Problemas de segurança, como vulnerabilidades de XSS (Cross-Site Scripting)</li>
+                                <li>Assincronismo pode levar a bugs difíceis de depurar</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam JavaScript:</h2>
+                            <ul>
+                                <li class="tech-pro">React</li>
+                                <li class="tech-pro">Angular</li>
+                                <li class="tech-pro">Vue.js</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-js')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/Angular-icone.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/Angular-icone.svg"
+                            onclick="exibirPopup('popup-ang')">
                         <p class="name-tech">Angular</p>
+                        <div id="popup-ang" class="popup">
+                            <div class="desc-tec">
+                                <h1>Angular</h1>
+                                <p>
+                                    Angular é uma estrutura de desenvolvimento de aplicativos da web e de aplicativos
+                                    móveis desenvolvida em TypeScript/JavaScript.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://angular.io/" target="_blank" class="link-tec">
+                                        https://angular.io/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Arquitetura baseada em componentes</li>
+                                <li>Uso de TypeScript para desenvolvimento mais seguro e produtivo</li>
+                                <li>Ótima performance e escalabilidade</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Curva de aprendizado inicial acentuada</li>
+                                <li>Complexidade em projetos de menor porte</li>
+                                <li>Manutenção mais complexa em aplicações grandes e antigas</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam Angular:</h2>
+                            <ul>
+                                <li class="tech-pro">Google</li>
+                                <li class="tech-pro">Microsoft</li>
+                                <li class="tech-pro">Stack Overflow</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-ang')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/c++.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/c++.svg" onclick="exibirPopup('popup-cpp')">
                         <p class="name-tech">C++</p>
+                        <div id="popup-cpp" class="popup">
+                            <div class="desc-tec">
+                                <h1>C++</h1>
+                                <p>
+                                    C++ é uma linguagem de programação de propósito geral, criada como uma extensão da
+                                    linguagem de programação C.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://www.cplusplus.com/" target="_blank" class="link-tec">
+                                        https://www.cplusplus.com/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Linguagem de alto desempenho e eficiente</li>
+                                <li>Ampla utilização em sistemas embarcados, jogos, softwares de sistema, entre outros
+                                </li>
+                                <li>Capacidade de manipulação de hardware e baixo nível</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Curva de aprendizado íngreme, especialmente para iniciantes</li>
+                                <li>Sintaxe complexa e detalhada</li>
+                                <li>Menos segura em comparação com algumas linguagens modernas devido à manipulação
+                                    direta de memória</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam C++:</h2>
+                            <ul>
+                                <li class="tech-pro">Microsoft Windows</li>
+                                <li class="tech-pro">Adobe Photoshop</li>
+                                <li class="tech-pro">Google Chrome</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-cpp')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/html5.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/html5.svg"
+                            onclick="exibirPopup('popup-html5')">
                         <p class="name-tech">HTML</p>
+                        <div id="popup-html5" class="popup">
+                            <div class="desc-tec">
+                                <h1>HTML5</h1>
+                                <p>
+                                    HTML5 é a mais recente versão da linguagem de marcação padrão para páginas da web.
+                                    Ela traz novos recursos,
+                                    semântica aprimorada e melhor suporte para multimídia e interatividade.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"
+                                        class="link-tec">
+                                        https://developer.mozilla.org/pt-BR/docs/Web/HTML
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Semântica aprimorada para melhor acessibilidade e SEO</li>
+                                <li>Novos elementos para multimídia, como <code>&lt;video&gt;</code> e
+                                    <code>&lt;audio&gt;</code></li>
+                                <li>APIs poderosas para gráficos, áudio, vídeo, geolocalização, entre outros</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Compatibilidade com navegadores mais antigos pode ser um desafio</li>
+                                <li>Implementação inconsistente de recursos avançados entre diferentes navegadores</li>
+                                <li>Dependência de JavaScript para muitas funcionalidades interativas</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam HTML5:</h2>
+                            <ul>
+                                <li class="tech-pro">YouTube</li>
+                                <li class="tech-pro">Google Maps</li>
+                                <li class="tech-pro">Twitter</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-html5')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/Figma.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/Figma.svg"
+                            onclick="exibirPopup('popup-figma')">
                         <p class="name-tech">Figma</p>
+                        <div id="popup-figma" class="popup">
+                            <div class="desc-tec">
+                                <h1>Figma</h1>
+                                <p>
+                                    Figma é uma ferramenta de design colaborativo baseada em navegador que permite aos
+                                    usuários criar, editar e
+                                    compartilhar projetos de design de forma eficiente.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://www.figma.com/" target="_blank" class="link-tec">
+                                        https://www.figma.com/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Interface de usuário intuitiva e fácil de aprender</li>
+                                <li>Colaboração em tempo real entre membros da equipe</li>
+                                <li>Compatibilidade com várias plataformas e sistemas operacionais</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Desempenho pode ser afetado em projetos muito grandes</li>
+                                <li>Alguns recursos avançados podem não estar disponíveis na versão gratuita</li>
+                                <li>Dependência de uma conexão de internet estável</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam Figma:</h2>
+                            <ul>
+                                <li class="tech-pro">Microsoft</li>
+                                <li class="tech-pro">Uber</li>
+                                <li class="tech-pro">Slack</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-figma')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/Typescript.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/Typescript.svg"
+                            onclick="exibirPopup('popup-ts')">
                         <p class="name-tech">Typescript</p>
+                        <div id="popup-ts" class="popup">
+                            <div class="desc-tec">
+                                <h1>Typescript</h1>
+                                <p>
+                                    TypeScript é uma linguagem de programação de código aberto desenvolvida pela
+                                    Microsoft. É uma extensão
+                                    da linguagem JavaScript e adiciona tipos estáticos opcionais à linguagem.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://www.typescriptlang.org/" target="_blank" class="link-tec">
+                                        https://www.typescriptlang.org/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Tipagem estática opcional para reduzir erros em tempo de execução</li>
+                                <li>Compatibilidade com JavaScript e grande parte de seu ecossistema</li>
+                                <li>Facilidade de uso com ferramentas de desenvolvimento modernas, como VS Code</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Curva de aprendizado inicial para quem está familiarizado apenas com JavaScript</li>
+                                <li>Overhead adicional devido à compilação para JavaScript</li>
+                                <li>Adição de tipos pode aumentar a complexidade do código</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam Typescript:</h2>
+                            <ul>
+                                <li class="tech-pro">Angular</li>
+                                <li class="tech-pro">React</li>
+                                <li class="tech-pro">Vue.js</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-ts')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/React-icon.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/React-icon.svg"
+                            onclick="exibirPopup('popup-react')">
                         <p class="name-tech">React</p>
+                        <div id="popup-react" class="popup">
+                            <div class="desc-tec">
+                                <h1>React</h1>
+                                <p>
+                                    React é uma biblioteca JavaScript de código aberto para construir interfaces de
+                                    usuário. Desenvolvida pelo
+                                    Facebook, ela é usada para criar componentes reutilizáveis para aplicativos da web.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://reactjs.org/" target="_blank" class="link-tec">
+                                        https://reactjs.org/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Componentização que facilita a reutilização de código</li>
+                                <li>Virtual DOM para melhorar o desempenho da aplicação</li>
+                                <li>Ampla comunidade de desenvolvedores e vasto ecossistema de bibliotecas</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Curva de aprendizado inicial, especialmente para quem não está familiarizado com
+                                    programação declarativa</li>
+                                <li>Gerenciamento de estado pode se tornar complexo em aplicativos grandes</li>
+                                <li>Alto consumo de memória devido à natureza da virtualização do DOM</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam React:</h2>
+                            <ul>
+                                <li class="tech-pro">Facebook</li>
+                                <li class="tech-pro">Instagram</li>
+                                <li class="tech-pro">Netflix</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-react')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons//tech/Python-logo.svg">
+                        <img class="tech-img" src="assets/img/icons//tech/Python-logo.svg" onclick="exibirPopup()">
                         <p class="name-tech">Python</p>
+                        <div id="popup-react" class="popup">
+                            <div class="desc-tec">
+                                <h1>React</h1>
+                                <p>
+                                    React é uma biblioteca JavaScript de código aberto para construir interfaces de
+                                    usuário. Desenvolvida pelo
+                                    Facebook, ela é usada para criar componentes reutilizáveis para aplicativos da web.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://reactjs.org/" target="_blank" class="link-tec">
+                                        https://reactjs.org/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Componentização que facilita a reutilização de código</li>
+                                <li>Virtual DOM para melhorar o desempenho da aplicação</li>
+                                <li>Ampla comunidade de desenvolvedores e vasto ecossistema de bibliotecas</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Curva de aprendizado inicial, especialmente para quem não está familiarizado com
+                                    programação declarativa</li>
+                                <li>Gerenciamento de estado pode se tornar complexo em aplicativos grandes</li>
+                                <li>Alto consumo de memória devido à natureza da virtualização do DOM</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam React:</h2>
+                            <ul>
+                                <li class="tech-pro">Facebook</li>
+                                <li class="tech-pro">Instagram</li>
+                                <li class="tech-pro">Netflix</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-py')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/css.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/css.svg" onclick="exibirPopup('popup-css')">
                         <p class="name-tech">CSS</p>
+                        <div id="popup-css" class="popup">
+                            <div class="desc-tec">
+                                <h1>CSS3</h1>
+                                <p>
+                                    CSS3 é a última evolução da linguagem de folhas de estilo em cascata (CSS), 
+                                    utilizada para estilizar elementos HTML em páginas da web.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" class="link-tec">
+                                    https://www.w3.org/Style/CSS/Overview.en.html
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Ampla variedade de propriedades para estilizar elementos de forma flexível e responsiva</li>
+                                <li>Facilidade de aprendizado e uso, especialmente para quem já está familiarizado com HTML</li>
+                                <li>Compatibilidade com a maioria dos navegadores modernos</li>
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Compatibilidade com navegadores mais antigos pode exigir fallbacks ou hacks</li>
+                                <li>Alguns recursos podem ter suporte limitado em determinados navegadores</li>
+                                <li>Curva de aprendizado pode ser íngreme para tarefas mais avançadas, como animações complexas</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam CSS3:</h2>
+                            <ul>
+                                <li class="tech-pro">Twitter</li>
+                                <li class="tech-pro">GitHub</li>
+                                <li class="tech-pro">Amazon</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-css')">Fechar</button>
+                        </div>
                     </div>
                     <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/tech/canva.svg">
+                        <img class="tech-img" src="assets/img/icons/tech/canva.svg" onclick="exibirPopup('popup-canva')">
                         <p class="name-tech">Canva</p>
+                        <div id="popup-canva" class="popup">
+                            <div class="desc-tec">
+                                <h1>Canva</h1>
+                                <p>
+                                    Canva é uma plataforma online de design gráfico que permite aos usuários criar uma variedade de
+                                    materiais visuais, incluindo banners, cartões, apresentações e muito mais.
+                                </p>
+                                <hr />
+                                <span>Site:<a href="https://www.canva.com/" target="_blank" class="link-tec">
+                                    https://www.canva.com/
+                                    </a>
+                                </span>
+                            </div>
+                            <hr />
+                            <h2>Prós:</h2>
+                            <ul>
+                                <li>Interface intuitiva e fácil de usar, mesmo para iniciantes em design gráfico</li>
+                                <li>Ampla variedade de modelos pré-fabricados para facilitar a criação de diferentes tipos de designs</li>
+                                <li>Funcionalidades de colaboração que permitem compartilhar e trabalhar em projetos com outras pessoas</li>
+
+                            </ul>
+                            <hr />
+                            <h2>Limitações:</h2>
+                            <ul>
+                                <li>Algumas funcionalidades avançadas podem estar disponíveis apenas para assinantes pagos</li>
+                                <li>Customização limitada em comparação com ferramentas de design profissionais</li>
+                                <li>Dependência de uma conexão de internet estável para uso online</li>
+                            </ul>
+                            <hr />
+                            <h2>Projetos que Utilizam Canva:</h2>
+                            <ul>
+                                <li class="tech-pro">Pinterest</li>
+                                <li class="tech-pro">HubSpot</li>
+                                <li class="tech-pro">TED</li>
+                            </ul>
+                            <button class="btn" onclick="fecharPopup('popup-canva')">Fechar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -387,8 +766,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Javascript/menu.js"></script>
-    <!-- <script src="Javascript/scroll.js"></script> -->
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/pop-up.js"></script>
     <!-- <script src="Javascript/animation.js"></script> -->
 
 </body>
