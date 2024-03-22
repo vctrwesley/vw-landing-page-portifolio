@@ -8,7 +8,7 @@ Este projeto é uma versão da minha landing page pessoal, portfólio. Desenvolv
 https://www.figma.com/proto/4TZxsxD9DdC1EMGLLs5fCK/Proj-W?page-id=0%3A1&type=design&node-id=9-15&viewport=459%2C215%2C0.13&t=5SDqlAZegNgbOzBT-1&scaling=scale-down&starting-point-node-id=9%3A15&mode=design
 
 ## Link do trello:
-https://trello.com/b/1ZLOCXUw/vw-portifolio
+https://trello.com/invite/b/1ZLOCXUw/ATTI518cf8e55c098992815e00f471a01b23B824CFC2/vw-portifolio
 
 ## Link da página:
 https://vw-landing-page-portifolio.vercel.app/
