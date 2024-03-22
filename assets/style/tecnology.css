@@ -67,6 +67,9 @@
   border: 2px solid #1C1C20;
   border-radius: 8px;
   z-index: 9999;
+  max-width: 100%;
+  max-height: 80%; 
+  overflow-y: auto;
 }
 
 .desc-tec {
@@ -137,5 +140,27 @@
   .name-tech,
   .name-skill {
     font-size: 0.875rem;
+  }
+
+  .popup {
+    padding: 10px;
+    max-width: 80%; 
+  }
+
+  .popup .btn {
+    margin-top: 16px;
+  }
+
+  .popup h1 {
+    font-size: 1.5rem;
+  }
+
+  .popup h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .popup p li {
+    font-size: 8px;
   }
 }
