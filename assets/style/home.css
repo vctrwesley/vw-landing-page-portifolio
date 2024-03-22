@@ -1,5 +1,5 @@
 .home {
-    margin-top: 80px;
+    margin-top: 5rem;
     position: relative;
     left: 0;
     right: 0;
@@ -13,8 +13,8 @@
 .container-amarelo {
     margin-left: 0;
     width: 100%;
-    min-height: 200px;
-    height: 500px;
+    min-height: 12.5rem;
+    height: 31.25rem;
     background-color: #D1BE13;
     position: relative;
 
@@ -22,7 +22,7 @@
 
 .container-amarelo .text-cont {
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     position: relative;
     top: 0;
     left: 96px;
@@ -30,40 +30,40 @@
 }
 
 span .text-cont {
-    margin-left: 32px;
+    margin-left: 2rem;
 }
 
 .img-arts {
     width: auto;
     height: 30%;
-    margin-left: 14px;
-    margin-top: 14px;
+    margin-left: 0.875rem;
+    margin-top: 0.875rem;
 }
 
 .container-preto {
     width: 100%;
-    min-height: 200px;
-    height: 500px;
+    min-height: 12.5rem;
+    height: 31.25rem;
     background-color: #1C1C20;
     left: 0;
-    border-left: 8px solid #EDEDED;
+    border-left: 0.5rem solid #EDEDED;
     position: relative;
 }
 
 .container-preto .text-cont {
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     position: relative;
-    top: 170px;
-    left: 450px;
+    top: 10.625rem;
+    left: 28.125rem;
     transform: translateY(-50%);
 }
 
 .not-arte {
     width: auto;
-    height: 400px;
+    height: 25rem;
     position: absolute;
-    bottom: -35px;
+    bottom: -2.1875rem;
     left: 50%;
     transform: translateX(-48%);
     z-index: 1;
@@ -71,20 +71,20 @@ span .text-cont {
 
 @media (max-width: 932px) {
     .container-amarelo .text-cont {
-        font-size: 28px;
-        left: 20px;
-        top: 2px;
+        font-size: 1.75rem;
+        left: 1.25rem;
+        top: 0.125rem;
     }
 
     .container-preto .text-cont {
-        font-size: 28px;
+        font-size: 1.75rem;
         left: 40%;
         transform: translateX(-50%);
     }
 
     .not-arte {
         width: auto;
-        height: 200px;
-        bottom: -20px;
+        height: 12.5rem;
+        bottom: -1.25rem;
     }
 }
