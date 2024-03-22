@@ -118,14 +118,44 @@
 @media (max-width: 932px) {
 
   .footer__container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    text-align: end;
+    margin-top: 0;
   }
 
-  .footer__menu{
+  .footer__menu {
+    margin: 0;
+  }
+
+  .footer__menu .explore, .sobre {
     display: none;
+  }
+
+  .footer__menu .contato h1 {
+    display: none;
+  }
+
+  .footer_inf {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .contato {
+    margin: 24px;
+  }
+
+  .contato img {
+    width: 12%;
+    margin: 0.25rem;
+}
+
+  .footer__logo {
+    padding-left: 14px;
+  }
+
+  .footer__logo img {
+    width: 100%;
+    height: auto;
   }
 
   .divide-container {
@@ -136,5 +166,6 @@
 
   .footer-copyright {
     margin-top: 0.5rem;
+    justify-content: center;
   }
 }

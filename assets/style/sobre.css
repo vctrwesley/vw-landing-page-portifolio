@@ -1,10 +1,10 @@
 .hello {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .dev {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .conteudo-sobre {
@@ -16,21 +16,21 @@
 }
 
 .conteudo-sobre p {
-    margin: 32px;
-    font-size: 20px;
+    margin: 2rem;
+    font-size: 1.25rem;
     text-align: justify
 }
 
 .pic-me img {
     width: auto;
     height: 300px;
-    margin: 32px;
+    margin: 2rem;
 }
 
 .button-contato {
     grid-column: span 1;
     text-align: left;
-    margin-left: 32px;
+    margin-left: 2rem;
 }
 
 .btn {
@@ -38,7 +38,7 @@
     color: #EDEDED;
     font-size: 1rem;
     font-weight: 700;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     padding: 0.625rem 1.25rem;
     margin-bottom: 1rem;
 }
@@ -49,8 +49,8 @@
 }
 
 .container-led {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     background-color: #D1BE13;
     overflow: hidden;
@@ -60,13 +60,13 @@
     white-space: nowrap;
     animation: moveText 12s linear infinite;
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .sobre-02 {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
 }
 
@@ -74,19 +74,19 @@
     width: 100%;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 56px;
+    margin-top: 3.5rem;
     justify-content: center;
 }
 
 .image-group img {
-    margin: 0 24px;
-    width: 250px;
+    margin: 0 1.5rem;
+    width: 15.625rem;
     height: auto;
 }
 
 .text-sbr {
-    margin: 32px;
-    font-size: 20px;
+    margin: 2rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 
@@ -98,21 +98,21 @@
     }
 
     .hello{
-        font-size: 32px;
+        font-size: 2rem;
     }    
 
     .dev{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .conteudo-sobre p {
-        margin: 14px 0;
+        margin: 0.875rem 0;
         text-align: center;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .pic-me img {
-        margin: 16px 0 0 0;
+        margin: 1rem 0 0 0;
     }
 
     .button-contato {
@@ -122,16 +122,16 @@
 
     .image-group {
         align-items: center;
-        margin-top: 14px;
+        margin-top: 0.875rem;
     }
 
     .image-group img {
-        margin: 16px;
+        margin: 1rem;
         width: 30%;
     }
 
     .text-sbr {
-        margin: 16px;
-        font-size: 16px;
+        margin: 1rem;
+        font-size: 1rem;
     }
 }

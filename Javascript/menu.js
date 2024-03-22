@@ -15,9 +15,5 @@ $(document).ready(function () {
                 $('nav .navbar-nav .nav-item:eq(' + $("section").index($('#' + key)) + ')').addClass('active');
             }
         });
-
-        // Remover '#' da URL OBS: temporario
-        //var currentPage = window.location.href.split('#')[0];
-        //history.replaceState({}, document.title, currentPage);
     });
 });

@@ -75,7 +75,7 @@
 .navbar-nav .nav-item.active .nav-link {
   color: #D1BE13;
   font-weight: bold;
-  border-bottom: 2px solid #D1BE13;
+  border-bottom: 0.125rem solid #D1BE13;
 }
 
 @media (max-width: 932px) {
@@ -85,7 +85,7 @@
   }
 
   .logo img{
-    width: 80%;
+    width: 50%;
   }
 
   .navbar-toggler {
@@ -98,17 +98,17 @@
   }
 
   .offcanvas.offcanvas-end {
-    width: 50%;
+    width: 70%;
   }
 
   .navbar-nav {
     flex-direction: column;
     background-color: #2C2D2E;
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   .navbar-nav .nav-item {
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
   .navbar-nav .nav-link {
