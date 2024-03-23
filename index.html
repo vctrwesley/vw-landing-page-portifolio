@@ -117,11 +117,34 @@
                                         contato. Para criarmos algo incrível juntos!</p>
                                 </div>
                             </div>
-                            <grid class="image-group" id="fotos">
-                                <img src="assets/img/quadros.png" height="200">
-                                <img src="assets/img/me004.png" height="200">
-                                <img src="assets/img/codigo.png" height="200">
-                            </grid>
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-theme="dark">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <grid class="image-group" id="fotos">
+                                            <img src="assets/img/me004.png" class="d-block w-15" alt="...">
+                                            <img src="assets/img/codigo.png" class="d-block w-15" alt="...">
+                                            <img src="assets/img/quadro02.jpg" class="d-block w-15" alt="...">
+                                        </grid>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <grid class="image-group" id="fotos">
+                                            <img src="assets/img/me003.png" class="d-block w-15" alt="...">
+                                            <img src="assets/img/quadros.png" class="d-block w-15" alt="...">
+                                            <img src="assets/img/prog.png" class="d-block w-15" alt="...">
+                                        </grid>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                             <p class="text-sbr"> Com um olhar atento aos detalhes e uma mentalidade voltada para a
                                 inovação e
                                 criatividade,
@@ -133,6 +156,82 @@
                                 inteligentes
                                 para qualquer problema.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-tragetoria">
+                <div class="formacao" id="formacao">
+                    <h1 class="title-tragetoria"><img src="assets/img/icons/Polygon.svg">Minha Jornada</h1>
+                    <div class="tragetoria-row">
+                        <div class="tragetoria-col">
+                            <h2 class="title-tra">Educação</h2>
+                            <div class="tragetoria-box">
+                                <div class="conteudo-formacao">
+                                    <div class="desc-formacao">
+                                        <div class="data">
+                                            <i>2016 - 2018</i>
+                                        </div>
+                                        <h3> E.E.M Francisco Nonato Freire</h3>
+                                        <p> Ensino Médio Completo</p>
+                                    </div>
+                                </div>
+                                <div class="conteudo-formacao">
+                                    <div class="desc-formacao">
+                                        <div class="data">
+                                            <i>2021 - 2025</i>
+                                        </div>
+                                        <h3> Universidade Federal do Ceará - UFC </h3>
+                                        <p> Graduando de Ciência da Computação</p>
+                                    </div>
+                                </div>
+                                <div class="conteudo-formacao">
+                                    <div class="desc-formacao">
+                                        <div class="data">
+                                            <i>2023 - 2024</i>
+                                        </div>
+                                        <h3> Laboratorio de Tecnologias Inovadoras - UFC </h3>
+                                        <p> Atuando em projetos nas área de frontend, UI/UX e Social Mídia.</p>
+                                    </div>
+                                </div>
+                                <div class="conteudo-formacao">
+                                    <div class="desc-formacao">
+                                        <div class="data">
+                                            <i>2024</i>
+                                        </div>
+                                        <h3> Universidade Federal do Estado do Rio de Janeiro - UNIRIO</h3>
+                                        <p> Residência em Engenharia de Software na IUUL - Frontend/Angular.js </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tragetoria-col">
+                            <h2 class="title-tra">Experiência</h2>
+                            <div class="tragetoria-box">
+                                <div class="conteudo-formacao">
+                                    <div class="desc-formacao">
+                                        <div class="data">
+                                            <i>Fevereiro de 2024 - Atualmente</i>
+                                        </div>
+                                        <h3> Desenvolvedor Front-end - OSB</h3>
+                                        <p> Construindo uma Plataforma de White Label Open Banking para Melhorar a
+                                            Inclusão Financeira e Capital Humano em Russas, Nordeste do Brasil. Contribuição na parte do frontend
+                                            para o projeto</p>
+                                    </div>
+                                </div>
+                                <div class="conteudo-formacao">
+                                    <div class="desc-formacao">
+                                        <div class="data">
+                                            <i>Algoritmo em Grafos | Fevereiro 2023 - Dezembro 2023</i>
+                                        </div>
+                                        <h3> Monitor - Universidade Federal do Ceará</h3>
+                                        <p> Foco de levar a teoria da sala para à prática, realizando as atividades e
+                                            trazendo os códigos dos algoritmos, assim conseguindo uma interação maior dos
+                                            monitores com a turma</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -578,28 +677,28 @@
             <div class="soft-skills">
                 <h1 class="title-skill">SOFT SKILLS</h1>
                 <div class="row row-cols-3">
-                    <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/soft-skill/team-w.png">
+                    <div class="icon-skill col">
+                        <img class="skill-img" src="assets/img/icons/soft-skill/team-w.png">
                         <p class="name-skill">Teamwork</p>
                     </div>
-                    <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/soft-skill/criatividade.png">
+                    <div class="icon-skill col">
+                        <img class="skill-img" src="assets/img/icons/soft-skill/criatividade.png">
                         <p class="name-skill">Criatividade</p>
                     </div>
-                    <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/soft-skill/lider.png">
+                    <div class="icon-skill col">
+                        <img class="skill-img" src="assets/img/icons/soft-skill/lider.png">
                         <p class="name-skill">Liderança</p>
                     </div>
-                    <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/soft-skill/comunica.png">
+                    <div class="icon-skill col">
+                        <img class="skill-img" src="assets/img/icons/soft-skill/comunica.png">
                         <p class="name-skill">Comunicação</p>
                     </div>
-                    <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/soft-skill/organiza.png">
+                    <div class="icon-skill col">
+                        <img class="skill-img" src="assets/img/icons/soft-skill/organiza.png">
                         <p class="name-skill">Organização</p>
                     </div>
-                    <div class="icon-tech col">
-                        <img class="tech-img" src="assets/img/icons/soft-skill/adapt.png">
+                    <div class="icon-skill col">
+                        <img class="skill-img" src="assets/img/icons/soft-skill/adapt.png">
                         <p class="name-skill">Adaptabilidade</p>
                     </div>
                 </div>
