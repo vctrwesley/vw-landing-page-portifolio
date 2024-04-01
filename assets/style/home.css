@@ -15,7 +15,7 @@
     width: 100%;
     min-height: 12.5rem;
     height: 31.25rem;
-    background-color: #D1BE13;
+    background-color: var(--amarelo-color);
     position: relative;
 
 }
@@ -44,7 +44,7 @@ span .text-cont {
     width: 100%;
     min-height: 12.5rem;
     height: 31.25rem;
-    background-color: #1C1C20;
+    background-color: var(--azul-black);
     left: 0;
     border-left: 0.5rem solid #EDEDED;
     position: relative;

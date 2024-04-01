@@ -4,13 +4,13 @@
 
 .container-contato {
     width: 100%;
-    background-color: #1C1C20;
+    background-color: var(--azul-black);
     height: auto;
     margin-top: 2rem;
 }
 
 .container-contato h1 {
-    color: #EDEDED;
+    color: var(--text-color-02);
     font-size: 2rem;
     font-weight: 700;
     margin: 1.5rem;
@@ -19,7 +19,7 @@
 }
 
 .container-contato h3 {
-    color: #D1BE13;
+    color: var(--amarelo-color);
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 0.875rem;
@@ -39,10 +39,26 @@
     margin-bottom: 0.875rem;
 }
 
+.button-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .button-container .btn {
-    width: 70%;
+    width: 34%;
     margin-bottom: 2.5rem;
     padding: 0.25rem;
+}
+
+.button-container .btn-02 {
+    width: 35%;
+    margin-left: 8px;
+    background-color: #BBC736;
+}
+
+.btn-02:hover{
+    background-color: var(--text-color-02);
+    color: var(--azul-black);
 }
 
 .social-icons .iconTop img {

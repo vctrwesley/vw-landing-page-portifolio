@@ -34,8 +34,8 @@
 }
 
 .btn {
-    background-color: #D1BE13;
-    color: #EDEDED;
+    background-color: var(--amarelo-color);
+    color: var(--text-color-02);
     font-size: 1rem;
     font-weight: 700;
     border-radius: 0.5rem;
@@ -44,15 +44,15 @@
 }
 
 .btn:hover {
-    background-color: #D4C53A;
-    color: #EDEDED;
+    background-color: var(--amarelo-00);
+    color: var(--text-color-02);
 }
 
 .container-led {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 100%;
-    background-color: #D1BE13;
+    background-color: var(--amarelo-color);
     overflow: hidden;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .container-tragetoria h1 {
-    color: #1C1C20;
+    color: var(--azul-black);
     font-size: 2rem;
     font-weight: 700;
     margin: 1.5rem;
@@ -140,11 +140,11 @@
     font-size: 2rem;
     margin: 0 0 1.5rem 2rem;
     font-weight: 700;
-    color: #D1BE13;
+    color: var(--amarelo-color);
 }
 
 .tragetoria-col .tragetoria-box {
-    border-left: 0.4rem solid #D1BE13
+    border-left: 0.4rem solid var(--amarelo-color)
 }
 
 .tragetoria-box .conteudo-formacao {
@@ -160,7 +160,7 @@
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
-    background: #D1BE13;
+    background: var(--amarelo-color);
 }
 
 .conteudo-formacao .desc-formacao {
@@ -168,7 +168,7 @@
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
-    border: 0.1rem solid #1C1C20;
+    border: 0.1rem solid var(--azul-black);
 }
 
 .conteudo-formacao .desc-formacao .data {
@@ -178,7 +178,7 @@
 
 .conteudo-formacao .desc-formacao h3 {
     font-size: 1.6rem;
-    color: #1C1C20;
+    color: var(--azul-black);
 }
 
 .conteudo-formacao .desc-formacao p {
@@ -254,7 +254,7 @@
     
     .conteudo-formacao .desc-formacao h3 {
         font-size: 1.4rem;
-        color: #1C1C20;
+        color: var(--azul-black);
     }
     
     .conteudo-formacao .desc-formacao p {
