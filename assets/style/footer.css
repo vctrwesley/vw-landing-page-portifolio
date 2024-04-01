@@ -1,5 +1,6 @@
 .footer-wes {
   display: flex;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -7,7 +8,7 @@
   margin: auto;
   flex-direction: column;
   justify-content: center;
-  background-color: #2C2D2E;
+  background-color: var(--bg-color-02);
 }
 
 .footer__container {
@@ -33,7 +34,7 @@
   background-color: transparent;
   margin-bottom: 0.875rem;
   margin-top: 0.875rem;
-  color: #fff;
+  color: var(--text-color-02);
   font-family: "Glacial indifference", sans-serif;
   font-size: 14px;
   justify-content: space-between;
@@ -52,12 +53,12 @@
 .footer__links .a {
   margin-right: 0.625rem;
   margin-bottom: 0.625rem;
-  color: #fff;
+  color: var(--text-color-02);
   text-decoration: none;
 }
 
 .footer-links a:hover {
-  color: #D1BE13;
+  color: var(--amarelo-color);
 }
 
 .explore,
@@ -75,7 +76,7 @@
 .explore h1,
 .sobre h1,
 .contato h1 {
-  color: #D1BE13;
+  color: var(--amarelo-color);
   font-size: 24px;
 }
 
@@ -102,13 +103,13 @@
   width: 80%;
   display: inline-block;
   margin: 0 0.5rem;
-  color: #D1BE13;
+  color: var(--amarelo-color);
 }
 
 .footer-copyright {
   font-family: "Glacial indifference", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: var(--text-color-02);
   display: flex;
   align-items: center;
   margin-top: 1.5rem;

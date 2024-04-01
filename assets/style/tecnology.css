@@ -3,19 +3,19 @@
   height: 28.125rem;
   margin-top: 2rem;
   text-align: center;
-  background-color: #1C1C20;
+  background-color: var(--azul-black);
 }
 
 .soft-skills {
   width: 100%;
   height: 28.125rem;
   text-align: center;
-  background-color: #D1BE13;
+  background-color: var(--amarelo-color);
   margin: auto;
 }
 
 .title-tech {
-  color: #D1BE13;
+  color: var(--amarelo-color);
   font-size: 2rem;
   font-weight: 700;
   padding-top: 0.875rem;
@@ -23,7 +23,7 @@
 }
 
 .title-skill {
-  color: #1C1C20;
+  color: var(--azul-black);
   font-size: 2rem;
   font-weight: 700;
   padding-top: 0.875rem;
@@ -31,12 +31,12 @@
 }
 
 .name-tech {
-  color: aliceblue;
+  color: var(--text-color-02);
   font-size: 1.5rem;
 }
 
 .name-skill {
-  color: #1C1C20;
+  color: var(--azul-black);
   font-size: 1.5rem;
 }
 
@@ -73,7 +73,7 @@
   transform: translate(-50%, -50%);
   background-color: #fff;
   padding: 20px;
-  border: 2px solid #1C1C20;
+  border: 2px solid var(--azul-black);
   border-radius: 8px;
   z-index: 9999;
   max-width: 120%;
@@ -97,7 +97,7 @@
 .popup h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: #D1BE13;
+  color: var(--amarelo-color);
 }
 
 .popup h2 {
@@ -124,7 +124,7 @@
 .popup hr {
   border: none;
   height: 1px;
-  background-color: #1C1C20;
+  background-color: var(--azul-black);
   margin: 8px;
 }
 

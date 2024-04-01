@@ -89,10 +89,20 @@ video {
   color: inherit;
 }
 
+:root{
+  --bg-color: #EDEDED;
+  --bg-color-02: #2C2D2E;
+  --text-color: #0F0F0C;
+  --text-color-02: #EDEDED;
+  --amarelo-color: #D1BE13;
+  --amarelo-00: #D4C53A;
+  --azul-black: #1C1C20;
+}
+
 body {
-  background-color: #EDEDED;
+  background-color: var(--bg-color);
   font-family: "Glacial indifference", sans-serif;
-  color: #0F0F0C;
+  color: var(--text-color);
 }
 
 hr {
