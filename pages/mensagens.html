@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="/assets/style/style.css">
     <link rel="stylesheet" href="/assets/style/navbar.css">
     <link rel="stylesheet" href="/assets/style/footer.css">
+    <link rel="stylesheet" href="/assets/style/contact.css">
 </head>
 
 <body>
@@ -61,8 +63,25 @@
     </header>
 
     <main>
-        <section>
-
+        <section class="mens-contato" id="mens-contato">
+            <div class="container-mens">
+                <div class="row">
+                    <div class="head-container">
+                        <h1 class="head">Contato</h1>
+                    </div>
+                    <div class="container-lista">
+                        <form id="form-control">
+                            <h3>Mensagens Enviadas:</h3>
+                            <div id="mens-list" class="list-mens">
+                                <div>Nenhuma mensagem encontrada.</div>
+                            </div>
+                            <div class="container-btn">
+                                <button id="limpar-dados" class="btn btn-03">Limpar Mensagens</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -78,15 +97,15 @@
                     <div class="explore">
                         <h1>Explore</h1>
                         <ul class="footer-links">
-                            <li><a href="#home" onclick="scrollToSection('home')">Home</a></li>
-                            <li><a href="#sobre" onclick="scrollToSection('sobre')">Sobre</a></li>
-                            <li><a href="#projects" onclick="scrollToSection('projects')">Projetos</a></li>
+                            <li><a href="/index.html#home" onclick="scrollToSection('home')">Home</a></li>
+                            <li><a href="/index.html#sobre" onclick="scrollToSection('sobre')">Sobre</a></li>
+                            <li><a href="/index.html#projects" onclick="scrollToSection('projects')">Projetos</a></li>
                         </ul>
                     </div>
                     <div class="sobre">
                         <h1>Sobre</h1>
                         <ul class="footer-links">
-                            <li><a href="#contato" onclick="scrollToSection('contato')">Contato</a></li>
+                            <li><a href="/index.html#contato" onclick="scrollToSection('contato')">Contato</a></li>
                             <li><a href="#">Política de privacidade</a></li>
                             <li><a href="#">Termos e Condições</a></li>
                         </ul>
@@ -116,12 +135,13 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/scripts/menu.js"></script>
+    <script src="/scripts/form.js"></script>
 
 </body>
+
 </html>
