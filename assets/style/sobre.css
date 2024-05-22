@@ -25,6 +25,7 @@
     width: auto;
     height: 300px;
     margin: 2rem;
+    border-radius: 50%;
 }
 
 .button-contato {
